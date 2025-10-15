@@ -12,45 +12,44 @@
 
 ## 💻 Proje Hakkında
 
-Bu proje, **Model-View-Controller (MVC)** mimarisinin temel yapısını ve işleyişini göstermek amacıyla geliştirilmiş bir **giriş seviyesi web uygulamasıdır**. Proje, Controller, View ve Model katmanlarının rollerini açıkça ayırarak, web uygulaması geliştirmenin temel prensiplerini pratikle pekiştirmeyi hedefler.
+Bu proje, **Model-View-Controller (MVC)** mimarisinin temel yapısını ve işleyişini göstermek amacıyla geliştirilmiş bir **giriş seviyesi web uygulamasıdır**.  
+Controller, View ve Model katmanlarının rollerini açıkça ayırarak web uygulaması geliştirme prensiplerini pratikle pekiştirir.
 
 ---
 
 ## ✨ Temel Özellikler ve Uygulanan Prensipler
 
 ### MVC Mimarisine Giriş
-* **Katmanların Ayrılması:** Kullanıcı arayüzü (View), iş mantığı (Model) ve kontrol mekanizması (Controller) arasındaki net sorumluluk ayrımını gösterir.
-* **Routing (Yönlendirme):** URL'lerin Controller eylemleriyle nasıl eşleştirildiğini temel düzeyde açıklar.
+* **Katmanların Ayrılması:** Kullanıcı arayüzü (View), iş mantığı (Model) ve kontrol mekanizması (Controller) arasındaki net sorumluluk ayrımı.
+* **Routing (Yönlendirme):** URL'lerin Controller eylemleriyle nasıl eşleştirildiği.
 
 ### Temel CRUD İşlemleri
-* Projenin odağına göre, basit bir varlık üzerinde (örneğin To-Do Listesi, Temel Kayıt Formu) **Ekleme (Create), Listeleme (Read), Güncelleme (Update) ve Silme (Delete)** operasyonları uygulanmıştır.
-* **Veri Taşıma:** **`ViewBag`**, **`ViewData`** veya **`ViewModel`** kullanarak Controller'dan View'a veri aktarma teknikleri kullanılmıştır.
+* Basit bir varlık üzerinde **Ekleme (Create), Listeleme (Read), Güncelleme (Update) ve Silme (Delete)** işlemleri uygulanmıştır.
+* **Veri Taşıma:** **`ViewBag`**, **`ViewData`** veya **`ViewModel`** ile Controller'dan View'a veri aktarımı.
 
 ### Kullanılan Teknolojiler
-* **ASP.NET MVC:** Ana uygulama çatısı.
-* **C#:** Arka uç (Backend) programlama dili.
-* **Razor View Engine:** Dinamik HTML oluşturmak için kullanılan şablon motoru.
-* **Entity Framework (Basit Bağlantı):** Veri erişimi ve basit veritabanı etkileşimleri için (varsayımsal).
+* **ASP.NET MVC** – Ana uygulama çatısı  
+* **C#** – Backend programlama dili  
+* **Razor View Engine** – Dinamik HTML şablon motoru  
+* **Entity Framework (Opsiyonel)** – Basit veri erişimi  
 
 ---
 
 ## 🚀 Nasıl Çalıştırılır?
 
-Bu proje, bir **Visual Studio** ortamını gerektirir ve genellikle ek bir veritabanı kurulumu gerektirmez (LocalDB veya InMemory kullanılabilir).
-
 1.  **Projeyi Klonlama:**
     ```bash
-    git clone [https://github.com/abdullahhaktan/MvcBasicProject](https://github.com/abdullahhaktan/MvcBasicProject)
+    git clone https://github.com/abdullahhaktan/MvcBasicProject
     cd MvcBasicProject
     ```
 
 2.  **Bağımlılıkları Yükleme:**
-    * **Visual Studio**'da `.sln` (Solution) dosyasını açın.
-    * Gerekliyse, projenin kullandığı tüm **NuGet** paketlerini geri yükleyin.
+    * Visual Studio’da `.sln` dosyasını açın.
+    * Projenin kullandığı tüm **NuGet** paketlerini geri yükleyin.
 
 3.  **Projeyi Başlatma:**
     * Ana projeyi **`Startup Project`** olarak ayarlayın.
-    * **F5** tuşu ile uygulamayı çalıştırın. Uygulama, belirtilen yerel adreste tarayıcınızda açılacaktır.
+    * **F5** tuşu ile çalıştırın. Uygulama belirtilen yerel adreste açılacaktır.
 
 ---
 ---
@@ -65,47 +64,45 @@ Bu proje, bir **Visual Studio** ortamını gerektirir ve genellikle ek bir verit
 
 ## 💻 About the Project
 
-This project is a **beginner-level web application** developed to demonstrate the fundamental structure and operation of the **Model-View-Controller (MVC)** architecture. The project aims to reinforce the basic principles of web application development by clearly separating the roles of the Controller, View, and Model layers.
+This project is a **beginner-level web application** demonstrating the fundamental structure and operation of the **Model-View-Controller (MVC)** architecture.  
+It separates the Controller, View, and Model layers to reinforce basic web application development principles.
 
 ---
 
 ## ✨ Core Features and Applied Principles
 
 ### Introduction to MVC Architecture
-* **Separation of Concerns:** Clearly demonstrates the separation of responsibility between the user interface (View), business logic (Model), and control mechanism (Controller).
-* **Routing:** Explains the basic mechanism of how URLs are mapped to Controller actions.
+* **Separation of Concerns:** Clear separation between user interface (View), business logic (Model), and control (Controller).  
+* **Routing:** Basic mechanism of URL mapping to Controller actions.
 
 ### Essential CRUD Operations
-* Depending on the project's focus (e.g., a To-Do List, a Basic Registration Form), **Create, Read, Update, and Delete (CRUD)** operations on a simple entity have been fully implemented.
-* **Data Transfer:** Uses techniques like **`ViewBag`**, **`ViewData`**, or **`ViewModel`** to transfer data from the Controller to the View.
+* **Create, Read, Update, Delete (CRUD)** operations implemented on a simple entity.  
+* **Data Transfer:** Uses **`ViewBag`**, **`ViewData`**, or **`ViewModel`** to transfer data from Controller to View.
 
 ### Technologies Used
-* **ASP.NET MVC:** The primary application framework.
-* **C#:** The backend programming language.
-* **Razor View Engine:** The templating engine used for generating dynamic HTML.
-* **Entity Framework (Basic Connection):** Used for data access and simple database interactions (assumed).
+* **ASP.NET MVC** – Main framework  
+* **C#** – Backend programming language  
+* **Razor View Engine** – Dynamic HTML templating  
+* **Entity Framework (Optional)** – Simple data access  
 
 ---
 
 ## 🚀 How to Run
 
-This project requires a **Visual Studio** environment and generally does not need a separate database setup (LocalDB or InMemory might be used).
-
 1.  **Cloning the Project:**
     ```bash
-    git clone [https://github.com/abdullahhaktan/MvcBasicProject](https://github.com/abdullahhaktan/MvcBasicProject)
+    git clone https://github.com/abdullahhaktan/MvcBasicProject
     cd MvcBasicProject
     ```
 
 2.  **Installing Dependencies:**
-    * Open the **`.sln`** (Solution) file in **Visual Studio**.
-    * Restore all necessary **NuGet** packages used by the project.
+    * Open the `.sln` file in Visual Studio.
+    * Restore all **NuGet** packages used by the project.
 
 3.  **Starting the Project:**
-    * Set the main project as the **`Startup Project`**.
-    * Run the application by pressing **F5**. The application will open in your browser at the specified local address.
+    * Set the main project as **`Startup Project`**.
+    * Press **F5**. The application will open in your browser at the local address.
 
----
 ---
 
 <img width="362" height="420" alt="basic1" src="https://github.com/user-attachments/assets/44c8ec28-55b9-444a-9360-173c351b843a" />
